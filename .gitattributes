@@ -1,0 +1,15 @@
+# Do not edit manually
+# Exclude build artifacts
+*.md linguist-documentation
+
+* text=auto eol=lf
+
+src/**/*.rs linguist-detectable
+*.jpeg binary
+
+go.sum linguist-generated
+
+public/*.html linguist-vendored
+*.woff binary
+vendor/* linguist-vendored
+*.rs linguist-detectable
